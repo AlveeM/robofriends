@@ -11,9 +11,9 @@ import 'tachyons';
 const store = createStore(searchRobots);
 
 ReactDOM.render(
-    <Provide store={store}>
+    <Provider store={store}>
         <App />
-    </Provide>
+    </Provider>
     ,document.getElementById('root')
 );
 
